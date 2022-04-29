@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&family=Press+Start+2P&family=Prompt:wght@200&family=Roboto:wght@100;300;400;500;900&family=Smooch+Sans&family=Work+Sans:wght@100;200;300;400;500&display=swap");
+
+.p-container {
+	width: 100%;
+	height: 120vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(to top, aliceblue, rgba(117, 19, 93, 0.73)),
+		url("https://assets.materialup.com/uploads/b57c8a2e-cb4e-41ce-bf7e-ebc8ba0da716/preview.png");
+}
+.custom-shape-divider-top-1649339473 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-1649339473 svg {
+	position: relative;
+	display: block;
+	width: calc(140% + 1.3px);
+	height: 309px;
+}
+
+.custom-shape-divider-top-1649339473 .shape-fill {
+	fill: aliceblue;
+}
+
+.progress-wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 999;
+}
+.progress-bar {
+	border: solid 1px black;
+	background-color: aliceblue;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+	/* margin-bottom: 450px; */
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+.headline-wrapper {
+	z-index: 999;
+	align-self: flex-start;
+}
+.sub-headline {
+	width: auto;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.p-container {
+		width: 100%;
+		height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+	.progress-wrapper {
+        height: 100%;
+		display: flex;
+		justify-content: space-between;
+		/* align-items: center; */
+        flex-wrap: wrap;
+        position: absolute;
+	}
+	.progress-bar {
+		width: 150px;
+		height: 200px;
+        font-weight: 700;
+        font-size: 13px;
+	}
+}

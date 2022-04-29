@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&family=Press+Start+2P&family=Prompt:wght@200&family=Roboto:wght@100;300;400;500;900&family=Secular+One&family=Smooch+Sans&family=Work+Sans:wght@100;200;300;400;500&display=swap");
+
+.c-container {
+	background-color: aliceblue;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.boxes-wrapper {
+	backdrop-filter: blur(5px);
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box {
+	font-family: "Lato", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	width: 150px;
+	height: 130px;
+}
+
+.content-wrapper {
+	flex: 1;
+	text-align: center;
+}
+.headline {
+	font-family: "Lato", sans-serif;
+	font-size: large;
+	font-weight: 400;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.headline h1 {
+	text-align: center;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.graph-img {
+	width: 100%;
+	height: 300px;
+	padding: 20px;
+}
+@media screen and (max-width: 480px) {
+	.boxes-wrapper {
+		width: 100%;
+		height: 20%;
+		border-bottom-left-radius: 160px;
+		border-bottom-right-radius: 160px;
+	}
+	.box{
+		width:50%;
+		height: 30%;
+		font-weight:900;
+		font-size: larger;
+	}
+	.paragraph{
+		display: none;
+	}
+}

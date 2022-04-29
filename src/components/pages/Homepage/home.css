@@ -1,0 +1,48 @@
+.chat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	position: fixed;
+	z-index: 9999;
+}
+a {
+	text-decoration-line: none;
+}
+.chat p {
+	width: 225px;
+	height: 40px;
+	text-align: end;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: blueviolet;
+	/* border: solid 1px black; */
+	font-weight: 700;
+	color: black;
+	position: relative;
+}
+.whatsapp {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 999;
+	margin-top: -5px;
+}
+@media screen and (max-width: 480px) {
+	.chat {
+		right: 0px;
+		bottom: 10px;
+	}
+	.chat p {
+		display: none;
+	}
+	.whatsapp {
+		width: 50px;
+		height: 50px;
+	}
+}
