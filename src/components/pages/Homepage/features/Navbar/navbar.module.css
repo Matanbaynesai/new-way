@@ -1,0 +1,191 @@
+.NavBar{
+	background-color: #181818;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	opacity: 1.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.NavBar nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.NavBar nav ul li{
+	display: inline-block;
+	margin: 1.5vw;
+	color: white;
+	cursor: pointer;
+}
+.NavBar .Navigation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.NavBar .Navigation img{
+	width:50px;
+	height: 50px;
+	align-self: right;
+}
+.NavBar .MobileNavigation{
+	display: none;
+}
+
+@media  (max-width:990px){
+	.NavBar .Navigation{
+		display: none;
+	}
+	.NavBar .MobileNavigation{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		z-index: 9999;
+	}
+	.NavBar .MobileNavigation .Hamburger{
+		position: absolute;
+		right: 5px;
+		cursor: pointer;
+	}
+	.NavBar nav ul{
+		background-color: #181818;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		width: 100%;
+	}
+	.NavBar .MobileNavigation img{
+		width: 50px;
+	    height: 50px;	
+		margin-right: 300px ;    
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .n-container {
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(10px);
+	position: sticky;
+	top: 0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 9999;
+}
+.manu {
+	padding: 10px;
+}
+.nav-logo {
+	width: 30%;
+	height: 100%;
+}
+.logo {
+	width: 120px;
+	height: 100%;
+	padding-left: 10px;
+	border-radius: 40%;
+}
+.manu {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.manu .nav-item {
+	width: auto;
+	height: auto;
+	font-weight: 600;
+	cursor: pointer;
+}
+.manu .nav-item .active {
+	padding-bottom: 10px;
+	border-bottom: 6px solid blueviolet;
+	border-radius: 10px;
+}
+.hamborger-nav{
+	margin: auto 0;
+	display: none;
+	cursor: pointer;
+} */
+
+/* @media screen and (max-width: 480px) {
+	.n-container {
+		position: sticky;
+		top: 0;
+		width: 100vw;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+	.manu{
+		display: none;
+	}
+	.hamborger-nav{
+		width: 50px;
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 10px;
+		cursor: pointer;
+		position: relative;
+	}
+	.hamborger-nav div{
+		width: 100%;
+		height: 3px;
+		background-color: black;
+	}
+	.mobile-manu{
+		position: absolute;
+		list-style: none;
+		width: 100%;
+		display: block;
+	}
+	.nav-logo{
+		width: 50%;
+	}
+	
+} */

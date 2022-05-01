@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .q-wrapper{
     width: 80%;
@@ -39,7 +40,7 @@
 .question{
     align-self: center;
     font-size: 20px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .q-btn{
     width: 30px;
@@ -52,6 +53,8 @@
     background-color:blueviolet;
     right: 0px;
     position: fixed;
+    cursor: pointer;
+    z-index: 1;
 }
 .answer{
     text-align:end;
@@ -60,7 +63,6 @@
     background-color: rgb(202, 207, 211);
     font-size: 15px;
     font-weight: 500;
-    z-index: 99999;
     display: flex;
     align-self: flex-start;
 }
@@ -87,7 +89,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 999;
+        z-index: 1;
     }
     .questions{
         width: 100%;
