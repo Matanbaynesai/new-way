@@ -26,20 +26,21 @@ export const Content = () => {
             <div data-aos="fade-left" className="box">
             <i className="bi bi-person-check-fill"></i>
                 <h3 className="desc">שיפור נתוני אשראי</h3>
-                <p className="paragraph">צוות המומחים שלנו יעזור לכם להתנהל בצורה חכמה יותר על מנת לשפר את נתוני האשראי.
-
-</p>
+                <p className="paragraph">צוות המומחים שלנו יעזור לכם להתנהל בצורה חכמה יותר על מנת לשפר את נתוני האשראי.</p>
             </div>
+        </div>
+        <div data-aos="fade-up" className="headline">
+            <h1>לא נותנים לכם הלוואה? אל תדאגו, צוות המומחים שלנו יעזור לכם למצוא פתרון.</h1>
         </div>
         <div className="content-wrapper">
-            <div data-aos="fade-up" className="headline">
-            <h1>לא נותנים לכם הלוואה? אל תדאגו, צוות המומחים שלנו יעזור לכם למצוא פתרון.</h1>
-            <div className="subline">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit Laborum, suscipit</p>
-            </div>
+        <div data-aos="fade-right" className="thinking">
+            <img className="thinking-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVO7AWHltXKSw3jieishMNF6ZbFWaPRwWPQ&usqp=CAU  " alt="" />
         </div>
         <div data-aos="fade-down" className="content">
+            <h4 data-aos="fade-down">כאן תוכלו להעריך מהו דירוג האשראי שלכם</h4>
+            <div className="rate">
             <img className="graph-img" src="./graph.jpeg" alt="" />
+            </div>
         </div>
         </div>
         

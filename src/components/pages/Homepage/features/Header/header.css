@@ -57,7 +57,7 @@
 @media screen and (max-width: 480px) {
 	.h-container {
 		width: 100vw;
-		height: 30vh;
+		height: 40vh;
 	}
 	.header-desc {
 		display: none;
@@ -65,5 +65,10 @@
 	.main-video{
 		width: 90%;
 		height: 90%;
+	}
+	.headline-header{
+		font-size: 10px;
+		font-weight: 200;
+		color: white;
 	}
 }
