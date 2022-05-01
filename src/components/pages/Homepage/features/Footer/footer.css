@@ -22,19 +22,28 @@
     justify-content: center;
     align-items: center;
 }
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.icon.instegram{
+    border-radius: 10px;
+}
 .bdi-img{
     width:200px;
     height: 200px;
     border-radius: 50%;
 }
 .line{
+    color: white;
   height: 2px;
   position: absolute;
   bottom: 35px;
   background-color: black;
   width: 100%;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
 }
 

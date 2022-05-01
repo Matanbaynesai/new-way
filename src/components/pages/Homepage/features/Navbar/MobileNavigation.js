@@ -33,7 +33,7 @@ function MobileNavigation() {
 		<nav className={classes.MobileNavigation}>
 			{open ? CloseIcon : HamburgerIcon}
 			{open ? <NavLinks data-aos="fade-left" /> : ""}
-            <img className="bdi" src="bdilogo.png"/>
+            {/* <img className="bdi" src="bdilogo.png"/> */}
 		</nav>
 	);
 }
