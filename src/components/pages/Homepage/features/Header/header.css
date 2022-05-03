@@ -29,7 +29,7 @@
 }
 
 .custom-shape-divider-bottom-1649334521 .shape-fill {
-    fill:aliceblue;
+    fill:rgb(220, 236, 249);
 }
 .video-wrapper{
 	z-index: 998;
@@ -68,18 +68,19 @@
 	}
 	.main-video{
 		width: 100%;
-		height: 100%;
+		height: 140px;
 	}
 	.headline-header{
+		text-align: center;
 		font-size: 13px;
 		font-weight: 200;
 		color: white;
 	}
 	.somthing{
-		height: 80%;
+		height: 65%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		align-items: center;
 	}
 }

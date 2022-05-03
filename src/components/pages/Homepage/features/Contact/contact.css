@@ -10,15 +10,13 @@
 }
 .form-wrapper {
 	width: 80%;
-	height: 70%;
+	height: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	/* border:5px solid rgb(217, 118, 245); */
 	border: none;
-	/* border-radius: 20px; */
 	box-shadow: 0rem;
 	padding: 70px;
 	animation-name: floating;
@@ -27,8 +25,14 @@
 	animation-timing-function: ease-in-out;
 	margin-left: 30px;
 	margin-top: 5px;
-	/* -webkit-box-shadow: -4px -2px 16px 0px rgba(0, 0, 0, 0.72);
-	box-shadow: -4px -2px 16px 0px rgba(0, 0, 0, 0.72);  */
+}
+form{
+	width:100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 .form-wrapper h1 h4 {
 	font-weight: bold;
@@ -64,6 +68,13 @@ input {
 	background-color: blueviolet;
 	font-weight: bold;
 	font-size: 20px;
+	cursor: pointer;
+}
+.thanks {
+	color: #59b256;
+	margin-top: 3px;
+	font-weight: 600;
+	font-size: 20px;
 }
 @media screen and (max-width: 480px) {
 	.c-container {
@@ -74,14 +85,26 @@ input {
 		justify-content: center;
 		align-items: center;
 	}
+	input {
+		border-bottom: 1px black solid;
+		letter-spacing: 3px;
+	}
 	.form-wrapper {
 		width: 90%;
 		height: 80%;
 	}
 	.form-wrapper input {
-		width:100%;
+		width: 100%;
 	}
 	.form-wrapper button {
-		width:100%;
+		width: 100%;
+		height: 15%;
+	}
+	.form-btn {
+		color: white;
+	}
+	h4{
+		/* font-weight: 800; */
+		font-size: 20px;
 	}
 }

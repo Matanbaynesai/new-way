@@ -1,5 +1,5 @@
 .q-container{
-    height: 130vh;
+    height: 150vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
@@ -8,7 +8,7 @@
     z-index: 1;
 }
 .q-wrapper{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,7 @@
 
 .questions-c{
     width: 100%;
+    height: 27%;
     direction: rtl;
     white-space: nowrap;
     text-overflow: clip; 
@@ -52,7 +53,7 @@
     font-size: 30px;
     background-color:blueviolet;
     right: 0px;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     z-index: 1;
 }
@@ -77,28 +78,39 @@
 @media screen and (max-width:480px) {
     .q-container{
         width: 100vw;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .q-wrapper{
-        width: 95%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: 1;
-    }
-    .questions{
-        width: 100%;
-    }
-    .questions:nth-child(9){
-        display: none;
     }
     .img-container{
         display: none;
-        z-index: 1;
+    }
+    .questions{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .questions-c{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .questions h3{
+        margin-right: 45px;
+    }
+    .q-btn{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-weight: 500;
     }
 }
