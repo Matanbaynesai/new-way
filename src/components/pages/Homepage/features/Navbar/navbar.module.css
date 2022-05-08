@@ -29,12 +29,16 @@
 .NavBar .Navigation img{
 	width:50px;
 	height: 50px;
-	align-self: right;
+	align-self: flex-end;
+}
+.NavBar .bdi{
+	align-self: flex-end;
 }
 .NavBar .MobileNavigation{
 	display: none;
 }
 .NavBar .Navigation{
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,6 +48,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 
 @media  (max-width:990px){
 	.NavBar .Navigation{

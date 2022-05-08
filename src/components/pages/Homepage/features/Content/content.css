@@ -8,10 +8,12 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
+	background-image: linear-gradient(to top, aliceblue, aliceblue);
+
 }
 .boxes-wrapper {
 	width: 100%;
-	height: 70%;
+	height: 40%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -28,6 +30,11 @@
 	text-align: center;
 	width: 150px;
 	height: 130px;
+}
+.about{
+	font-weight: 300;
+	font-family: "Secular One", sans-serif;
+	direction: rtl;
 }
 .rate-container {
 	width: 100%;
@@ -48,13 +55,14 @@
 	font-family: "Lato", sans-serif;
 	font-size: large;
 	font-weight: 400;
+	direction: rtl;
 }
 .headline h1 {
 	text-align: center;
 }
 .content {
 	width: 70%;
-	height: 70%;
+	height: 60%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -107,6 +115,7 @@
 		padding: 10px;
 		font-size: 15px;
 		font-weight: 200;
+		direction: rtl;
 	}
 	.content-wrapper {
 		width: 100%;

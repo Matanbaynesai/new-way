@@ -6,7 +6,6 @@ function Navigation() {
     return (
         <nav className={classes.Navigation}>
             <NavLinks/>
-           {/* <img className="bdi" src="bdilogo.png"/> */}
         </nav>
     );
 }

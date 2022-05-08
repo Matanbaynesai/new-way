@@ -1,20 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&family=Press+Start+2P&family=Prompt:wght@200&family=Roboto:wght@100;300;400;500;900&family=Smooch+Sans&family=Work+Sans:wght@100;200;300;400;500&display=swap");
 
+
 .p-container {
 	z-index: 1;
 	width: 100%;
-	height: 120vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+	background-color: aliceblue;
 	position: relative;
-	background-repeat: no-repeat;
+	background-image: linear-gradient(
+			to top,
+			aliceblue,
+			rgba(208, 194, 205, 0.73)
+		),
+		url("https://www.pngmagic.com/product_images/dark-blue-and-light-blue-combination-background.jpg");
+}
+.p-content {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.image-area {
+	/* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOatH5W6pP6Ljq8YmXF60qO8167tLq-pSUYQ&usqp=CAU"); */
+	background-size: cover;
+	width: 40%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-family: "Secular One", sans-serif;
+}
+.profile {
+	width: 100%;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.profile p {
+	font-weight: 500;
+}
+.picture {
+	width: 60%;
+	padding:10px;
+	height: 70%;
+	border-radius: 50%;
 	background-size: cover;
 	background-position: center;
-	background-image: linear-gradient(to top, aliceblue, rgba(117, 19, 93, 0.73)),
-		url("https://assets.materialup.com/uploads/b57c8a2e-cb4e-41ce-bf7e-ebc8ba0da716/preview.png");
+	-webkit-box-shadow: 2px 6px 15px 1px rgba(0, 0, 0, 0.79);
+	box-shadow: 2px 6px 15px 1px rgba(0, 0, 0, 0.79);
 }
-.custom-shape-divider-top-1649339473 {
+.article-area {
+	width: 50%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	direction: rtl;
+	text-align: center;
+	font-weight: 500;
+	font-family: "Secular One", sans-serif;
+}
+.headers-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 20%;
+}
+.first-headline {
+	text-align: center;
+}
+.intro {
+	text-align: center;
+	direction: rtl;
+}
+
+/* .custom-shape-divider-top-1649339473 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -32,65 +99,29 @@
 
 .custom-shape-divider-top-1649339473 .shape-fill {
 	fill: aliceblue;
-}
-
-.progress-wrapper {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	z-index: 999;
-}
-.progress-bar {
-	border: solid 1px black;
-	background-color: aliceblue;
-	border-radius: 20px;
-	width: 300px;
-	height: 300px;
-	/* margin-bottom: 450px; */
-	z-index: 999;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	position: relative;
-}
-.headline-wrapper {
-	z-index: 999;
-	align-self: flex-start;
-}
-.sub-headline {
-	width: auto;
-	height: 150px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	margin-left: 10px;
-}
+} */
 
 @media screen and (max-width: 480px) {
 	.p-container {
 		width: 100%;
 		height: 100vh;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.progress-wrapper {
-        height: 100%;
+		height: 100%;
 		display: flex;
 		justify-content: space-between;
 		/* align-items: center; */
-        flex-wrap: wrap;
-        position: absolute;
+		flex-wrap: wrap;
+		position: absolute;
 	}
 	.progress-bar {
 		width: 150px;
 		height: 200px;
-        font-weight: 700;
-        font-size: 13px;
+		font-weight: 700;
+		font-size: 13px;
 	}
 }

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import "./process.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -9,48 +10,49 @@ export const Process = () => {
 	}, []);
 	return (
 		<div className="p-container">
-		<div class="custom-shape-divider-top-1649339473">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
-    </div>
-			<div className="progress-wrapper">
-      {/* <div className="headline-wrapper">
-				<h1 className="headline">התהליך הוא כזה</h1>
-			</div> */}
-        <div data-aos="flip-up" className="progress-bar">
-          <div className="icon">Some Icon</div>
-          <div className="sub-headline">
-          <h1>1</h1> 
-          <h2 className="headline-card">Headline</h2>
-          <p className="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, repudiandae.</p>
+			<div className="p-content">
+				<div className="image-area">
+					<div className="profile">
+						<img
+							src="noampic.jfif"
+							className="picture"
+						></img>
+						<p>יועץ משכנתאות | נועם צוריאל</p>
+					</div>
+					<div className="intro">
+						<p>
+							היי נעים מאוד, שמי נועם צוריאל יועץ משכנתאות ומנכ''ל של ''דרך
+							חדשה'' חברה שמעניקה ייעוץ פיננסי ועוזרת לאנשים לשפר את דירוג
+							האשראי שלהם כדי שיוכלו לקבל הלוואות ומשכנתאות בתנאים הטובים יותר.
+						</p>
+					</div>
+				</div>
+				<div className="article-area">
+          <div className="headers-wrap">
+					<h2 className="first-headline">
+						פנית לבנקים וחברות האשראי וקיבלת הצעות להלוואה/משכנתא בתנאים לא
+						טובים וריביות גבוהות?
+					</h2>
+					<h3 className="sub-headline">
+						יש פתרון ואפשר לקבל הלוואות בתנאים טובים יותר.
+					</h3>
           </div>
-        </div>
-        <div data-aos="flip-right" className="progress-bar">
-          <div className="icon">Some Icon</div>
-          <div className="sub-headline">
-          <h1>2</h1> 
-          <h2 className="headline-card">Headline</h2>
-          <p className="text-card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, ea!</p>
-          </div>
-        </div>
-        <div data-aos="flip-left" className="progress-bar">
-          <div className="icon">Some Icon</div>
-          <div className="sub-headline">
-          <h1>3</h1> 
-          <h2 className="headline-card">Headline</h2>
-          <p className="text-card"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, repellendus.</p>
-          </div>
-        </div>
-        <div data-aos="fade-down" className="progress-bar">
-          <div className="icon">Some Icon</div>
-          <div className="sub-headline">
-          <h1>4</h1> 
-          <h2 className="headline-card">Headline</h2>
-          <p className="text-card"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nam.</p>
-          </div>
-        </div>
-      </div>
+					<p className="article">
+						עשרות אלפי ישראלים מקבלים מדי יום מהבנקים או מחברות האשראי הצעות
+						להלוואה/משכנתא בתנאים נמוכים והכל בגלל דירוג אשראי (BDI) בעייתי.
+						דירוג אשראי(BDI נמוך ) יגרום לכך שתקבלו הלוואות ומשכנתאות בתנאים לא
+						טובים או שתסורבו. דירוג אשראי (BDI) גבוה ) יעזור לבנק לרצות לתת לך
+						הלוואה ומשכנתא בתנאים טובים. צוות המומחים שלנו יעשה כל מה שצריך
+						בשקיפות מלאה מול הלקוח, מתן ייעוץ וליווי צמוד בדרך לעתיד נקי, חדש
+						וחיובי עם דירוג אשראי משופר וגבוה. יש לנו מטרה עיקרית וברורה – לסייע
+						ללקוחותינו לנקות את עברם הכלכלי, לפתוח דף חדש, לשפר את הפרופיל
+						הפיננסי מול הבנקים וחברות האשראי כדי שיקבלו הלוואות/משכנתא בתנאים
+						הכי טובים בתהליך פשוט ונוח תוך 14-60 ימים בלבד. אנו מאמינים ובטוחים
+						בשירות שלנו ובמידה ולא ישופר דירוג האשראי הלקוח מקבל את כל כספו
+						בחזרה, בלי אותיות קטנות.
+					</p>
+				</div>
+			</div>
 		</div>
 	);
 };

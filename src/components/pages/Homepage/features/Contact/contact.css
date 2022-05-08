@@ -1,12 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&family=Press+Start+2P&family=Prompt:wght@200&family=Roboto:wght@100;300;400;500;900&family=Smooch+Sans&family=Work+Sans:wght@100;200;300;400;500&display=swap");
+
 .c-container {
 	width: 100%;
-	height: 10vh;
+	height: 20vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	background-color: purple;
+}
+.care {
+	width: 90%;
+	height: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px;
+	text-align: center;
+	direction: rtl;
+	background: aliceblue;
+}
+.star-box {
+	width: 300px;
+	height: 170px;
+	-webkit-box-shadow: -1px 0px 11px 0px rgba(0,0,0,0.71); 
+	box-shadow: -1px 0px 11px 0px rgba(0,0,0,0.71);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	padding: 5px;
+	text-align: center;
+	font-weight: 300;
+	font-family: "Secular One", sans-serif;
+}
+.stars {
+	width: 100%;
+	height: 50%;
+	justify-content: center;
+	align-items: center;
+}
+.star-box:nth-child(4) {
+	align-self: flex-end;
+}
+.star-box:nth-child(2) {
+	align-self: flex-end;
 }
 .form-wrapper {
 	width: 80%;
@@ -26,8 +66,8 @@
 	margin-left: 30px;
 	margin-top: 5px;
 }
-form{
-	width:100%;
+form {
+	width: 100%;
 	height: 70%;
 	display: flex;
 	flex-direction: column;
@@ -103,7 +143,7 @@ input {
 	.form-btn {
 		color: white;
 	}
-	h4{
+	h4 {
 		/* font-weight: 800; */
 		font-size: 20px;
 	}
