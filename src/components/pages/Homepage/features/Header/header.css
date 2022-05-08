@@ -57,11 +57,12 @@
 @media screen and (max-width: 480px) {
 	.h-container {
 		width: 100vw;
-		height: 50vh;
+		height: 40vh;
 		background-position: center;
 		background-size:cover;
 		display: flex;
 		flex-direction: column;
+		justify-content: flex-end;
 	}
 	.header-desc {
 		display: none;
@@ -71,11 +72,13 @@
 		height: 140px;
 	}
 	.headline-header{
+		align-self: baseline;
 		text-align: center;
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: 200;
-		color: white;
+		color: rgb(255, 255, 255);
 	}
+	
 	.somthing{
 		height: 65%;
 		display: flex;

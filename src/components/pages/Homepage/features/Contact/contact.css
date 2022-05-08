@@ -10,13 +10,14 @@
 	position: relative;
 	background-color: purple;
 }
-.care {
+.stars-wrapper {
 	width: 90%;
-	height: 60%;
+	height: 50%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2px;
+	padding: 10px;
+	margin-bottom: 20px;
 	text-align: center;
 	direction: rtl;
 	background: aliceblue;
@@ -35,6 +36,8 @@
 	text-align: center;
 	font-weight: 300;
 	font-family: "Secular One", sans-serif;
+	background-color: rgb(34, 34, 34);
+	color: white;
 }
 .stars {
 	width: 100%;
@@ -110,6 +113,7 @@ input {
 	font-size: 20px;
 	cursor: pointer;
 }
+
 .thanks {
 	color: #59b256;
 	margin-top: 3px;
@@ -118,33 +122,50 @@ input {
 }
 @media screen and (max-width: 480px) {
 	.c-container {
-		width: 100vw;
+		width: 100%;
 		height: 100vh;
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		align-items: center;
+		position: relative;
+		background-color: purple;
 	}
-	input {
-		border-bottom: 1px black solid;
-		letter-spacing: 3px;
-	}
-	.form-wrapper {
+	.form-wrapper{
 		width: 90%;
-		height: 80%;
+		height: 45vh;
 	}
-	.form-wrapper input {
-		width: 100%;
+	.form-wrapper input{
+		width: 270px;
+		border: none;
+		border-bottom: 1px black solid;
 	}
-	.form-wrapper button {
-		width: 100%;
-		height: 15%;
+	.form-btn{
+		width: 270px;
 	}
-	.form-btn {
+	 .star-box{
+		background-color: rgb(75, 75, 75);
 		color: white;
+		height: 50vh;
 	}
-	h4 {
-		/* font-weight: 800; */
-		font-size: 20px;
+	.stars-wrapper{
+		height: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	} 
+	.star-box{
+		width: 350px;
+		height: 140px;
+		padding: 4px;
+		margin-bottom: 15px;
+	}
+	.star-box:nth-child(4) {
+		align-self: center;
+	}
+	.star-box:nth-child(2) {
+		align-self: center;
 	}
 }

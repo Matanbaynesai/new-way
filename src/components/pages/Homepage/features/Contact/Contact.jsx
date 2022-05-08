@@ -29,7 +29,18 @@ export const Contact = () => {
 	}
 	return (
 		<div id="contact" className="c-container">
-			<div className="care">
+			<div className="form-wrapper">
+				<h1 className="form-headline"> ? רוצים עוד מידע </h1>
+				<h4>!השאירו פרטים ונחזור אליכם</h4>
+				<form ref={form} onSubmit={sendEmail}>
+					<input type="text" name="user_name" placeholder="שם פרטי" />
+					<input type="text" name="last_name" placeholder="שם משפחה" />
+					<input type="tel" name="number" placeholder="מספר טלפון" />
+					<button className="form-btn">שלח</button>
+					{done && <p className="thanks">הפרטים נשלחו בהצלחה נחזור בהקדם!</p>}
+				</form>
+			</div>	
+			<div className="stars-wrapper">
 				<div className="star-box">
 					<div className="stars">
 						<BsStarFill color="yellow" />
@@ -66,7 +77,7 @@ export const Contact = () => {
 					<p className="text">
 						המחיר שלנו ידוע מראש והוא הכי זול שתקבלו . במידה וקיבלתם הצעה זולה
 						יותר אנחנו מתחייבים לעשות את לכם את התיקון במחיר נמוך יותר מההצעה
-						שקיבלתם ( והתשלום רק לאחר התיקון כמובן )
+						שקיבלתם והתשלום רק לאחר התיקון כמובן .
 					</p>
 				</div>
 				<div className="star-box">
@@ -78,7 +89,7 @@ export const Contact = () => {
 						<BsStarFill color="yellow" />
 					</div>
 					<p className="text">
-						אנחנו כאן בשבילכם לדאוג לכם זה מה שיש נגד עינינו
+						אנחנו כאן בשבילכם לדאוג לכם זה מה שיש נגד עינינו.
 					</p>
 				</div>
 				<div className="star-box">
@@ -95,17 +106,7 @@ export const Contact = () => {
 					</p>
 				</div>
 			</div>
-			<div className="form-wrapper">
-				<h1 className="form-headline"> ? רוצים עוד מידע </h1>
-				<h4>!השאירו פרטים ונחזור אליכם</h4>
-				<form ref={form} onSubmit={sendEmail}>
-					<input type="text" name="user_name" placeholder="שם פרטי" />
-					<input type="text" name="last_name" placeholder="שם משפחה" />
-					<input type="tel" name="number" placeholder="מספר טלפון" />
-					<button className="form-btn">שלח</button>
-					{done && <p className="thanks">הפרטים נשלחו בהצלחה נחזור בהקדם!</p>}
-				</form>
-			</div>
+			
 		</div>
 	);
 };

@@ -17,7 +17,7 @@ export const Process = () => {
 							src="noampic.jfif"
 							className="picture"
 						></img>
-						<p>יועץ משכנתאות | נועם צוריאל</p>
+						<p>נועם צוריאל | יועץ משכנתאות</p>
 					</div>
 					<div className="intro">
 						<p>
