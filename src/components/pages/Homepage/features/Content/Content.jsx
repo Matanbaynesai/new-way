@@ -54,7 +54,6 @@ export const Content = () => {
 								למצוא פתרון.
 							</h1>
 						</div>
-						{/* <h4 data-aos="fade-down">כאן תוכלו להעריך מהו דירוג האשראי שלכם</h4> */}
 						<div className="rate">
 							<p className="about">
 								לפני שנתיים הייתי בעל עסק ובעקבות הקורונה והסגר היה לי החזר של

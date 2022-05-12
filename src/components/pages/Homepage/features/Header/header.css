@@ -54,10 +54,10 @@
 .headline-header p {
 	width: 30%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.h-container {
-		width: 100vw;
-		height: 40vh;
+		width: 515px;
+		height: 380px;
 		background-position: center;
 		background-size:cover;
 		display: flex;
@@ -78,7 +78,9 @@
 		font-weight: 200;
 		color: rgb(255, 255, 255);
 	}
-	
+	.custom-shape-divider-bottom-1649334521{
+		display: none ;
+	}
 	.somthing{
 		height: 65%;
 		display: flex;

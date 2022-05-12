@@ -3,7 +3,7 @@
 .c-container {
 	background-color: aliceblue;
 	width: 100%;
-	height: 155vh;
+	height: 1150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -89,11 +89,11 @@
 	width: 50%;
 	height: 70%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.c-container {
 		background-color: aliceblue;
-		width: 100%;
-		height: 140vh;
+		width: 515px;
+		height: 1250px;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
@@ -108,7 +108,7 @@
 		border-bottom-right-radius: 110px;
 	}
 	.rate-container {
-		width: 100%;
+		width: 500px;
 		height: 60%;
 		display: flex;
 		flex-direction: column;

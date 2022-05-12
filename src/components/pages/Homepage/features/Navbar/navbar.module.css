@@ -10,6 +10,7 @@
 	align-items: center;
 }
 
+
 .NavBar nav ul{
 	list-style-type: none;
 	margin: 0;
@@ -29,16 +30,12 @@
 .NavBar .Navigation img{
 	width:50px;
 	height: 50px;
-	align-self: flex-end;
-}
-.NavBar .bdi{
-	align-self: flex-end;
+	align-self: right;
 }
 .NavBar .MobileNavigation{
 	display: none;
 }
 .NavBar .Navigation{
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,20 +46,20 @@
 	align-items: center;
 }
 
-
-@media  (max-width:990px){
+@media screen and (max-width:500px){
 	.NavBar .Navigation{
 		display: none;
 	}
 	.NavBar .MobileNavigation{
+		width: 515px;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		z-index: 9999;
 	}
 	.NavBar .MobileNavigation .Hamburger{
 		position: absolute;
-		right: 5px;
+		left: 5px;
 		cursor: pointer;
 	}
 	.NavBar nav ul{

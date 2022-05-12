@@ -13,6 +13,7 @@ export const NavBar = () => {
     <div className={classes.NavBar}>
       <MobileNavigation/>
       <Navigation/>
+      <img width={200} height={100} className="bdi-logo" src="pnlogo.png"/>
       
     </div>
   )

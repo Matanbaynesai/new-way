@@ -33,8 +33,8 @@ export const Contact = () => {
 				<h1 className="form-headline"> ? רוצים עוד מידע </h1>
 				<h4>!השאירו פרטים ונחזור אליכם</h4>
 				<form ref={form} onSubmit={sendEmail}>
-					<input type="text" name="user_name" placeholder="שם פרטי" />
-					<input type="text" name="last_name" placeholder="שם משפחה" />
+					<input type="text" name="user_name" placeholder="שם מלא" />
+					<input type="text" name="last_name" placeholder="אימייל" />
 					<input type="tel" name="number" placeholder="מספר טלפון" />
 					<button className="form-btn">שלח</button>
 					{done && <p className="thanks">הפרטים נשלחו בהצלחה נחזור בהקדם!</p>}

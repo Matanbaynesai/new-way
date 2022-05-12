@@ -29,11 +29,13 @@
 }
 
 .icon.instegram{
+    width: 45px;
+    height: 45px;
     border-radius: 10px;
 }
 .bdi-img{
-    width:200px;
-    height: 200px;
+    width: 250px;
+    height: 170px;
     border-radius: 50%;
 }
 .line{
@@ -46,9 +48,9 @@
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .f-container{
-        width: 100vw;
+        width: 515px;
 		background-color: rgb(49, 49, 49);
     }
 }

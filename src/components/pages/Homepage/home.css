@@ -22,7 +22,7 @@ a {
 	z-index: 999;
 	margin-top: -5px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.chat {
 		right: 0px;
 		bottom: 10px;
