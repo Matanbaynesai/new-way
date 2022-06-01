@@ -18,7 +18,9 @@ export const Header = () => {
 
 			<div className="headline-header">
 				<h1 data-aos="fade-up">
+					
 					? קיבלתם דחייה מהבנק
+					<br/>
 					 מאיתנו תקבלו מענה
 				</h1>
 				<p className="header-desc" data-aos="slide-left ">
